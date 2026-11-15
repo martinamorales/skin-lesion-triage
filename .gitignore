@@ -1,0 +1,38 @@
+# --- Data & model artifacts (never commit: large files, licensed/medical data) ---
+data/*
+!data/README.md
+models/
+outputs/
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+
+# --- Tools & caches ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# --- Secrets ---
+.env
+
+# --- Editors & OS ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
