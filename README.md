@@ -33,6 +33,18 @@ uv sync          # create the virtual environment and install dependencies
 uv run pytest    # run the test suite
 ```
 
+## Notebooks
+
+The analysis is documented step by step in Jupyter notebooks. Each one can be opened
+directly in Google Colab, where it downloads the data and installs the project itself.
+
+| Notebook | Description | |
+|---|---|---|
+| [01 · Data exploration](notebooks/01_data_exploration.ipynb) | Class imbalance, label quality, images per lesion (data leakage), patient demographics | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/martinamorales/skin-lesion-triage/blob/main/notebooks/01_data_exploration.ipynb) |
+
+To run them locally instead: `uv sync --group notebooks`, then open the notebook in
+VS Code or Jupyter.
+
 ## Data
 
 Datasets are **not** included in this repository. See [`data/README.md`](data/README.md)
