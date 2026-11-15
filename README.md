@@ -2,6 +2,8 @@
 
 > An uncertainty-aware skin lesion classifier that knows when to defer to a dermatologist.
 
+[![CI](https://github.com/martinamorales/skin-lesion-triage/actions/workflows/ci.yml/badge.svg)](https://github.com/martinamorales/skin-lesion-triage/actions/workflows/ci.yml)
+
 **Status:** 🚧 Work in progress
 
 ## Motivation
