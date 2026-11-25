@@ -16,6 +16,11 @@ dependencies = [
 
 [dependency-groups]
 dev = ["pytest>=8"]
+embeddings = [
+    "open-clip-torch>=4.2.2",
+    "torch>=2.15.0",
+    "transformers>=5.24.1",
+]
 notebooks = [
     "ipykernel>=7.4.0",
     "matplotlib>=3.11.2",
