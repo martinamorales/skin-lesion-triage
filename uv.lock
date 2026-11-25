@@ -1199,7 +1199,9 @@ name = "skin-lesion-triage"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "numpy" },
     { name = "pandas" },
+    { name = "pillow" },
     { name = "scikit-learn" },
 ]
 
@@ -1210,12 +1212,13 @@ dev = [
 notebooks = [
     { name = "ipykernel" },
     { name = "matplotlib" },
-    { name = "pillow" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "numpy", specifier = ">=2.5.4" },
     { name = "pandas", specifier = ">=3.1.1" },
+    { name = "pillow", specifier = ">=13.0.0" },
     { name = "scikit-learn", specifier = ">=1.9.1" },
 ]
 
@@ -1224,7 +1227,6 @@ dev = [{ name = "pytest", specifier = ">=8" }]
 notebooks = [
     { name = "ipykernel", specifier = ">=7.4.0" },
     { name = "matplotlib", specifier = ">=3.11.2" },
-    { name = "pillow", specifier = ">=13.0.0" },
 ]
 
 [[package]]
